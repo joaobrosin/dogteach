@@ -55,9 +55,10 @@
                     Preencha os dados para receber dicas e técnicas para estimular o aprendizado do seu pet.
                 </p>
             </div>
-            <form id="data-user" method="POST" action="./enviar.php">
-                <label for="name">Nome:</label>
-                <input type="text" name="name" id="name" required>
+            <form id="data-user" class="formphp" method="POST" action="./enviar.php" > 
+                <!-- para mudar o método de envio de email pelo sendgrid, trocar conteúdo do action acima por "./enviar-sengrid.php"-->
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required>
                 <label for="dogname">Qual o nome do seu cãopanheiro?</label>
@@ -71,7 +72,7 @@
                 <input type="text" class="robot-input" name="dontchange" value="http://">
                 <!-- robot msg end -->
 
-                <button>Baixar eBook</button>
+                <button id="enviar" name="enviar" type="submit">Baixar eBook</button>
                 <p class="footer-letter">Prometemos não utilizar suas informações <br/> de contato para enviar SPAM.</p>
             </form>
 
