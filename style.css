@@ -190,7 +190,10 @@ form .footer-letter {
 
 .images img.dog-image {
     width: 450px;
+    animation: appear 1s;
 }
+
+
 
 .images .dog-bg {
     width: 380px;
@@ -247,7 +250,7 @@ form .footer-letter {
     .print1 {
         z-index: -1;
         margin-top: 80px;
-        margin-bottom: 90px;
+        margin-bottom: 170px;
     }
 
     .print2 {
@@ -296,3 +299,5 @@ form .footer-letter {
     }
 
 } 
+
+
