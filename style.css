@@ -277,3 +277,20 @@ form .footer-letter {
         height: 230px;
     }
 } 
+
+/* form msgs */
+
+#form-erro {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+
+#form-sucesso {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+}
