@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NTJ7LKV');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogTeach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTJ7LKV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="structure">
+        <div class="header">
+            <img src="images/icons/logo.svg" alt="">
+        </div>
+
+        <div class="title">
+            <h1>
+                Saiba os métodos profissionais para ensinar o seu cão!
+            </h1>
+        </div>
+
+        <div class="info">
+            <ul>
+                <li>Divirta-se ensinando seu próprio cão com técnicas comprovadas.</li>
+                <li>Aumente o vínculo com seu pet querido.</li>
+                <li>Surpreenda seus amigos com diversos truques que o seu cãopanheiro irá aprender!</li>
+            </ul>
+        </div>
+
+        <div class="print1">
+            <img src="images/icons/prints-top.svg" alt="">
+        </div>
+
+        <div class="form">
+            <div class="form-header">
+                <h2>
+                    Baixe o eBook <br/> gratuitamente
+                </h2>
+                <p>
+                    Preencha os dados para receber dicas e técnicas para estimular o aprendizado do seu pet.
+                </p>
+            </div>
+            <form id="data-user" method="POST" action="./enviar.php">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="dogname">Qual o nome do seu cãopanheiro?</label>
+                <input type="text" name="dogname" id="dogname" required>
+
+                <!-- fields to avoid robots -->
+                <label class="robot-input">Se você não é um robô, deixe em branco</label>
+                <input type="text" class="robot-input" name="leaveblank">
+
+                <label class="robot-input">Se você não é um robô, não mude este campo.</label>
+                <input type="text" class="robot-input" name="dontchange" value="http://">
+                <!-- robot msg end -->
+
+                <button>Baixar eBook</button>
+                <p class="footer-letter">Prometemos não utilizar suas informações <br/> de contato para enviar SPAM.</p>
+            </form>
+
+            <div class="print2">
+                <img src="images/icons/prints-bottom.svg" alt="">
+            </div>
+
+        </div>
+
+        
+
+        <div class="images">
+            <div class="dog-bg">
+              <img class="dog-image" src="images/pictures/dog.png" alt="">  
+            </div>
+        </div>
+
+        
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+
+   <script src="script.js"></script> 
+</body>
+</html>
