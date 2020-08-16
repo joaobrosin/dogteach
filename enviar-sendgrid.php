@@ -25,7 +25,7 @@ $email->setReplyTo($email_user, $nome_user);
 $email->setSubject("Formulário DogTeach");
 $email->addContent("text/plain", $body_content);
 
-$sendgrid = new \SendGrid("SG.CttT4VIzRv-QPEFydYDS3g.HtYU-g-K4rCVP54soXCsE-gHKP5VEZW9orGhruKGGI4");
+$sendgrid = new \SendGrid("key API");
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
