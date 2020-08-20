@@ -25,8 +25,8 @@ body {
     "header header print1  ......"
     "...... title  form    ......"
     "...... info   form    ......"
-    "...... images form    ......"
-    "...... images form    ......"
+    "images images form    ......"
+    "images images form    ......"
     ;
 }
 
@@ -193,22 +193,29 @@ form .footer-letter {
     animation: appear 1s;
 }
 
-
-
 .images .dog-bg {
-    width: 380px;
     height: 300px;
-    z-index: 1;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 100%;
-    margin-bottom: 20px;
-    z-index: -1;
-    
+    background-image: url("images/icons/dog-background.svg");
+    background-size: 250px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    z-index: -1; 
 }
 
+/* Put the dog always in the bottom as a footer */
 
+html, body {
+    height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.structure {
+    flex: 1 0 auto;
+}
 
 /* responsivity */
 
