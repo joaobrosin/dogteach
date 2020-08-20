@@ -22,7 +22,7 @@
 ---
 
 ## 📝 About
-The **DogTeach** is a landing page developed for a company challenge. The propose of the page is to get leads and leave available an eBook with a lot of methods and tips to become a dog trainer.
+The **DogTeach** is a landing page developed for a company challenge. The proposal of the page is to get leads and leave available an eBook with a lot of methods and tips to become a dog trainer.
 
 ---
 ## 🚀 Technologies
