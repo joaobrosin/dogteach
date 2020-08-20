@@ -185,7 +185,6 @@ form .footer-letter {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-top: 16px;
 }
 
 .images img.dog-image {
